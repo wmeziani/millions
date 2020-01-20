@@ -1,0 +1,59 @@
+/**
+* Meziani Walid B231 g42949;
+*/
+body{
+    background-color:  rgb(107, 0, 232);
+    
+}
+
+header{
+    background-color: rgb(64, 0, 232);
+    text-align: center;
+    border: 2em;
+    border-bottom: 2em;
+    border:dotted;
+    padding: 2em;
+    text-decoration-color: white;
+}
+
+footer{
+    background-color:rgb(64, 0, 232);
+    text-align: center;
+    border:dotted;
+    bottom: 0;
+    padding: 2em;
+    text-decoration-color: white;
+    display: block;
+}
+img{
+    float: left;
+}
+.hidd{
+    display: none;
+}
+#stop{
+    text-align: center;
+    padding: 1em;
+}
+#bouton{
+    text-align: center;
+    padding: 1em;
+}
+.formulaire{
+    margin: 0 auto;
+    width: 15em;
+    padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  
+}
+#titre{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+} 
+#quest{
+    text-align: center;
+    text-decoration-color: indigo;
+    
+}

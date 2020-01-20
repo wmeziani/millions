@@ -1,0 +1,53 @@
+<!-- Meziani Walid 132 42949 -->
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+
+    <script src="../javascript/data.js"></script>
+    <script src="../javascript/shuffle.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="../image/auton131-f91d6.jpg" height="50" width="50">
+        <h2>Qui veut gagner des €€€€€€</h2>
+    </header>
+
+    <div id="bouton">
+        <span id="quest">question</span><br>
+        <button id="btn1" onclick="traitement1()" value="1">reponse 1 <br>
+            <span id="reponse1"></span>
+        </button>
+        <button id="btn2" onclick="traitement2()" value="2">reponse 2 <br>
+            <span id="reponse2"></span>
+        </button>
+        <button id="btn3" onclick="traitement3()" value="3">reponse 3 <br>
+            <span id="reponse3"></span>
+        </button>
+        <button id="btn4" onclick="traitement4()" value="4">reponse 4 <br>
+            <span id="reponse4"></span>
+        </button>
+        <button id="svt" onclick="questSuivant()">valider</button>
+    </div>
+    <button id="stop" onclick="stop()" value="5">stop</button><br>
+    <span id="mauvaiseRep"></span> <br>
+    <span id="gain">Gains: 0 €</span><br>
+    <span id="palier">Palier: 1</span>
+    <button id="joker" class="hidd" onclick="joker()">50/50</button>
+    <footer id="foot">
+        <span id="write"></span>
+    </footer>
+    <script src="../javascript/page.js"></script>
+    <script src="../javascript/traitemenReponse.js"></script>
+</body>
+
+</html>
